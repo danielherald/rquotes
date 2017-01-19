@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "QUOTES",
+  "description": "nice quotes in every tab",
+  "version": "0.2",
+"icons": { "16": "ico.png",
+           "48": "ico.png",
+          "128": "ico.png" },
+  "browser_action": {
+    "default_icon": "ico.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ],
+    
+      "chrome_url_overrides" : {
+    "newtab": "index.html"
+  }
+}
