@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 
-  "name": "QUOTES",
+  "name": "RQUOTES",
   "description": "nice quotes in every tab",
   "version": "0.2",
 "icons": { "16": "ico.png",
